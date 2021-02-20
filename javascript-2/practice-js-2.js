@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+var gitDefinition = 'Git is my command center'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+var gitHubDefinition = 'Github is a place to store all my code so anyone can see it'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+var init = {
+    description: 'git init creates a new git repository ',
+    code: 'git init'
+};
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+var clone = {
+    description:' git clone allows me to upload a repository from github into vscode',
+    code: 'git clone'
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+const status = {
+    description: 'git status displays the working directory',
+    code: 'git status'
+};
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,10 @@
 */
 
 //CODE HERE
+var add = {
+    description:' add will allow us to add all changes in the working directory to the staging area',
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +90,11 @@
 
 //CODE HERE
 
+var commit = {
+    description: 'commit allows us to comment what we are doing before we push our code to github',
+    code: `git commit -m""`
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +103,11 @@
 
 //CODE HERE
 
+var addRemote = {
+    description: 'add remote will allow us to create a new connection record to a remote repository',
+    code: 'git remote add origin'
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +115,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'push allows us to push all of our code to github repositories',
+    code: 'git push'
+}

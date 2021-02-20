@@ -1,0 +1,109 @@
+
+
+/* .top-row {
+    background-color: aquamarine;
+    padding: 25px;
+    box-sizing: border-box;
+
+} */
+
+
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+.top-container {
+    border: 2px dotted black;
+    width: 850px;
+    height: 225px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+}
+
+.purple-rectangle {
+    height: 90px ;
+    width: 210px;
+    background-color: rgb(91, 8, 124) ;
+    display: inline-block;
+}
+
+.blue-square {
+    height: 90px;
+    width: 105px;
+    background-color: rgb(16, 88, 136);
+    display: inline-block;
+    box-shadow: 3px 3px 5px 2px ;
+    margin: 0 40px;
+}
+
+.pink-square {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(232, 135, 235);
+    display: inline-block;
+    box-shadow:0px 0px 0px 1px ;
+}
+
+.middle-container {
+    border: 2px dotted black;
+    width: 850px;
+    height: 350px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.small-circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 0px 1px;
+    margin-bottom: 0.5%;
+    margin-left: -4%;
+}
+
+
+.medium-circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 0px 1px;
+    margin-bottom: 2.2%;
+    margin-left: -4.5%;
+}
+
+.big-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 0px 1px;
+    margin-top: -2%;
+    margin-left: -5.7%;
+}
+
+
+
+
+.bottom-container {
+    border: 2px dotted black;
+    width: 850px;
+    height: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+}
+
+.big-square {
+    height: 175px;
+    width: 175px;
+    background-color: rgb(230, 218, 152);
+    display: inline-block;
+    box-shadow:0px 0px 0px 1px ;
+}
